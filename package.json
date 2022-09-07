@@ -1,0 +1,22 @@
+{
+  "name": "crypt-bot",
+  "version": "1.0.0",
+  "description": "Command line bot for cryptocurrency exchanges Binance, Cryptopia and Bittrex",
+  "main": "index.js",
+  "repository": "git@bitbucket.org:dav1605/crypt-bot.git",
+  "author": "David Rivera <djro1605@gmail.com>",
+  "license": "GPL-3.0",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.15.1",
+    "prompt": "^1.0.0",
+    "qs": "^6.5.2",
+    "yargs": "^11.0.0"
+  }
+}
